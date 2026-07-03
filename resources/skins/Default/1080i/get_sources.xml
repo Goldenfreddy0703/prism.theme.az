@@ -1,4 +1,4 @@
-<window type="dialog">
+﻿<window type="dialog">
     <defaultcontrol>2</defaultcontrol>
     <coordinates>
         <left>0</left>
@@ -148,25 +148,25 @@
 
         <!-- Top Logo/picture  -->
         <control type="image" id="1001">
-            <top>-935</top>
+            <top>-900</top>
             <left>550</left>
             <width>400</width>
             <aspectratio>keep</aspectratio>
             <texture background="true">$INFO[Window().Property(item.art.clearlogo)]</texture>
         </control>
 
-        <!-- Seren Ico -->
+        <!-- Prism Logo -->
         <control type="image" id="1001">
-            <top>-210</top>
-            <left>580</left>
-            <width>350</width>
+            <top>-100</top>
+            <left>645</left>
+            <width>210</width>
             <aspectratio>keep</aspectratio>
-            <texture>$INFO[Window().Property(seren.logo)]</texture>
+            <texture>$INFO[Window().Property(prism.logo)]</texture>
         </control>
 
         <control type="label">
             <left>-200</left>
-            <top>510</top>
+            <top>800</top>
             <width>100%</width>
             <font>font12</font>
             <align>center</align>
@@ -179,7 +179,7 @@
         <control type="group">
             <visible>String.IsEqual(Window().Property(process_started),true)</visible>
             <left>560</left>
-            <top>530</top>
+            <top>630</top>
             <width>100%</width>
 
             <!-- Progress -->

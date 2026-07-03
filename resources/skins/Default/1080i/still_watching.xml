@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <window>
     <onload>Dialog.Close(fullscreeninfo,true)</onload>
     <onload>Dialog.Close(videoosd,true)</onload>
@@ -21,7 +21,7 @@
                 <height>64</height>
                 <aligny>center</aligny>
                 <font>Small</font>
-                <label>$ADDON[plugin.video.seren 30559]</label>
+                <label>$ADDON[plugin.video.prism 30559]</label>
                 <textcolor>ffededed</textcolor>
                 <shadowcolor>bf000000</shadowcolor>
             </control>

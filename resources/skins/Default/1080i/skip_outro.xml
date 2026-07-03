@@ -21,7 +21,7 @@
                 <height>64</height>
                 <aligny>center</aligny>
                 <font>Small</font>
-                <label>$ADDON[plugin.video.prism 30553]... </label>
+                <label>$ADDON[plugin.video.prism 30822]</label>
                 <textcolor>ffededed</textcolor>
                 <shadowcolor>bf000000</shadowcolor>
             </control>
@@ -43,8 +43,8 @@
                 <texture colordiffuse="df000000" border="4">diffuse/blackline_nextup.png</texture>
             </control>
             <control type="image" description="blackline">
-                <height>64</height>
-                <width>64</width>
+                <height>94</height>
+                <width>94</width>
                 <centertop>133</centertop>
                 <centerleft>50%</centerleft>
                 <aspectratio scalediffuse="false">keep</aspectratio>
@@ -58,7 +58,7 @@
                 <font>TinyBold</font>
                 <align>center</align>
                 <textcolor>$VAR[ColorHighlight]</textcolor>
-                <label>$INFO[Player.TimeRemaining(ss)]</label>
+                <label>$INFO[Player.TimeRemaining(sss)]</label>
             </control>
 
             <!-- Details -->
@@ -85,11 +85,12 @@
                 <aligny>center</aligny>
                 <textoffsetx>0</textoffsetx>
                 <onleft>3002</onleft>
-                <onright>3003</onright>
+                <onright>3004</onright>
                 <font>Null</font>
                 <textcolor>PanelWhite30</textcolor>
                 <focusedcolor>PanelWhite100</focusedcolor>
                 <texturefocus colordiffuse="$VAR[ColorHighlight]" border="5">common/box.png</texturefocus>
+                <texturenofocus colordiffuse="B3000000" border="5">common/box.png</texturenofocus>
                 <texturenofocus />
             </control>
             <control type="image">
@@ -103,9 +104,9 @@
                 <animation effect="fade" start="100" end="50" time="0" condition="!Control.HasFocus(3001)">Conditional</animation>
             </control>
 
-            <!-- Stop Autoplay -->
-            <control type="button" id="3003">
-                <description>Stop</description>
+            <!-- Skip Outro -->
+            <control type="button" id="3004">
+                <description>Skip Outro</description>
                 <right>64</right>
                 <bottom>8</bottom>
                 <width>48</width>
@@ -120,6 +121,7 @@
                 <textcolor>PanelWhite30</textcolor>
                 <focusedcolor>PanelWhite100</focusedcolor>
                 <texturefocus colordiffuse="$VAR[ColorHighlight]" border="5">common/box.png</texturefocus>
+                <texturenofocus colordiffuse="B3000000" border="5">common/box.png</texturenofocus>
                 <texturenofocus />
             </control>
             <control type="image">
@@ -130,7 +132,7 @@
                 <height>32</height>
                 <texture>indicator/poster-inprogress2.png</texture>
                 <aspectratio>keep</aspectratio>
-                <animation effect="fade" start="100" end="50" time="0" condition="!Control.HasFocus(3003)">Conditional</animation>
+                <animation effect="fade" start="100" end="50" time="0" condition="!Control.HasFocus(3004)">Conditional</animation>
             </control>
 
             <!-- Close -->
@@ -144,12 +146,13 @@
                 <align>center</align>
                 <aligny>center</aligny>
                 <textoffsetx>0</textoffsetx>
-                <onleft>3003</onleft>
+                <onleft>3004</onleft>
                 <onright>3001</onright>
                 <font>Null</font>
                 <textcolor>PanelWhite30</textcolor>
                 <focusedcolor>PanelWhite100</focusedcolor>
                 <texturefocus colordiffuse="$VAR[ColorHighlight]" border="5">common/box.png</texturefocus>
+                <texturenofocus colordiffuse="B3000000" border="5">common/box.png</texturenofocus>
                 <texturenofocus />
             </control>
             <control type="image">

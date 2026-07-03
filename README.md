@@ -1,6 +1,6 @@
-## Theme for Seren & Artic Zephyr users
+﻿## Theme for Prism & Artic Zephyr users
                   SmartPlay PopUp             
-![nextup up popup](https://github.com/Goldenfreddy0703/seren.theme.az/assets/62456796/abe21603-454c-4e07-bdc3-1781bfa5b7ec
+![nextup up popup](https://github.com/Goldenfreddy0703/prism.theme.az/assets/62456796/abe21603-454c-4e07-bdc3-1781bfa5b7ec
 )
 
 |                   Scraping                   |                   Source Select                   |
@@ -13,35 +13,35 @@
 
 
 ##### Requirements
-* Seren - 2.x or greater
+* Prism - 2.x or greater
 * Artic Zephyr - Latest Repo version or higher 
 
-**This theme is a modified version of SerenTheme-SerenMod-Full, use at your own risk with other skins.**
+**This theme is a modified version of PrismTheme-PrismMod-Full, use at your own risk with other skins.**
 
-*The text color for this theme is controlled by Serens  Settings called "Select Text Highlight Color..." Found in Seren Settings > Interface*
+*The text color for this theme is controlled by Prism's **Select Text Highlight Color** setting (Prism Settings → Interface).*
 
 -----------
 
-##### To install this theme in Seren, navigate to:
+##### To install this theme in Prism, navigate to:
 
-`Seren -> Tools > Open Settings Menu -> Theme Manager -> Interface > (themes section) Install Theme -> Web Location`
+`Prism → Tools → Theme Manager → Install Theme → Web Location`
 
 And enter the following URL:
-https://www.github.com/goldenfreddy0703/seren.theme.az/zipball/master/
+https://www.github.com/goldenfreddy0703/prism.theme.az/zipball/master/
 
 ------------
 
 
 You can also download the `.zip` file directly from the same URL, and install it from:
 
-`Seren -> Tools > Open Settings Menu -> Theme Manager -> Interface > (themes section) Install Theme ->  Browse`
+`Prism → Tools → Theme Manager → Install Theme → Browse`
 
 ------------
 
 
 
 
-*The creator of this theme is not affiliated with Seren, Artic Zephyr, or Kodi.*
+*The creator of this theme is not affiliated with Prism, Artic Zephyr, or Kodi.*
 
 *All Credit goes to Drinfernoo and SerpentDrago for helping me make this possible.*
 
